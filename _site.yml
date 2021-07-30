@@ -6,7 +6,13 @@ navbar:
     - text: "Research"
       href: research.html
     - text: "Teaching"
-      href: teaching.html
+      menu:
+        - text: "Overview"
+          href: teaching.html
+        - text: "BIOS 6611"
+          href: bios6611.html
+        - text: "Study Design Short Course"
+          href: study_design_berd.html
     - text: "Publications"
       href: publications.html
   right:
