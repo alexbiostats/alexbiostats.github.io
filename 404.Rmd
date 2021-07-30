@@ -5,3 +5,5 @@ output:
 ---
 
 I'm sorry, you seem to have specified a bad prior. Try specifying a new prior (or visiting the home page).
+
+![Baisy404](./files/baisy_404.jpg)
