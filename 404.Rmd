@@ -1,0 +1,7 @@
+---
+title: "Alex Kaizer"
+output: 
+  html_document
+---
+
+I'm sorry, you seem to have specified a bad prior (file not found). Try visiting the home page or specifying a new prior.
