@@ -11,7 +11,7 @@ navbar:
       href: publications.html
   right:
     - icon: fa-envelope fa-lg
-      href: contact.html
+      href: mailto:alex.kaizer@cuanschutz.edu
     - icon: ai-google-scholar ai-lg
       href: https://scholar.google.com/citations?user=ICpH74EAAAAJ&hl=en
     - icon: ai-cv ai-lg
