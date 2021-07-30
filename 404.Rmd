@@ -1,7 +1,7 @@
 ---
-title: "Alex Kaizer"
+title: "Page Not Found"
 output: 
   html_document
 ---
 
-I'm sorry, you seem to have specified a bad prior (file not found). Try visiting the home page or specifying a new prior.
+I'm sorry, you seem to have specified a bad prior. Try specifying a new prior (or visiting the home page).
