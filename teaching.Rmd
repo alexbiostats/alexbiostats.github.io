@@ -1,5 +1,5 @@
 ---
-title: "Alex Kaizer"
+title: "Teaching"
 output: 
   html_document
 ---

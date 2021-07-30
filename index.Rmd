@@ -4,6 +4,8 @@ output:
   html_document
 ---
 
+<img src="./files/alex-kaizer.jpg" style="width:25%; border:5px solid; margin-right: 20px" align="left">
+
 I am an Assistant Professor in the [Department of Biostatistics & Informatics (B&I)](https://coloradosph.cuanschutz.edu/education/departments/biostatistics-informatics) and the [Center for Innovative Design and Analysis (CIDA)](https://coloradosph.cuanschutz.edu/research-and-practice/centers-programs/cida) at the [University of Colorado-Anschutz Medical Campus](https://cuanschutz.edu/). 
 
 My research interests are in the development of Bayesian statistical methods for information sharing and in the design of adaptive clinical trials. I am also interested in the intersection of these two areas to develop novel adaptive clinical trial designs that more efficiently and effectively utilize available resources, past trials, and past studies. I am currently an NHLBI K01 scholar working to extend these methods and designs to the world of cardiovascular outcomes research. Within CIDA I collaborate with clinicians and scientists across campus in translational research, especially in applications relating to gastroenterology, cardiology, anesthesiology, and pediatric obesity.
