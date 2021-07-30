@@ -4,4 +4,29 @@ output:
   html_document
 ---
 
-Teaching information coming soon.
+## Current Courses
+
+Fall 2021: [Biostatistical Methods I (BIOS 6611)](bios_6611.html)
+
+Fall 2021: [Fundamentals of Study Design (BERD Short Course)](study_design_berd.html)
+
+## Past Courses
+
+Fall 2020: [Biostatistical Methods I (BIOS 6611)](bios_6611.html)
+
+Fall 2020: [Fundamentals of Study Design (BERD Short Course)](study_design_berd.html)
+
+Spring 2020: Advanced Methods in the Design of Clinical Trials (BIOS 7749)
+
+Fall 2019: Biostatistical Methods I (BIOS 6611)
+
+Fall 2019: [Fundamentals of Study Design (BERD Short Course)](study_design_berd.html)
+
+Spring 2019: [Fundamentals of Study Design (BERD Short Course)](study_design_berd.html)
+
+Fall 2018: Biostatistical Methods I (BIOS 6611)
+
+Spring 2018: Bayesian Methods (BIOS 7717 Co-Instructor)
+
+
+

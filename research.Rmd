@@ -4,4 +4,25 @@ output:
   html_document
 ---
 
-Research information coming soon!
+My research focuses on the development of statistical methods to facilitate the sharing of information across multiple sources, the efficient design of adaptive clinical trials for translational research, and the intersection of these two. I briefly describe some of my existing and ongoing work in these areas below.
+
+### Bayesian Information Sharing with Multi-Source Exchangeability Models
+
+Multi-source exchangeability models (MEMs) are a general Bayesian framework to facilitate the sharing of information across multiple, potentially heterogeneous, sources of data. It has been developed for both *asymmetric* settings where there is one primary source of data (e.g., a current trial) and historic or supplemental sources of data to consider borrowing from, as well as *symmetric* settings where there multiple concurrent primary sources of data (e.g., a basket trial). 
+
+The figures below demonstrate the conceptual framework for the asymmetric setting, a posterior exchangeability probability matrix in the symmetric setting of a basket trial, and the corresponding network of baskets.
+
+```{r, out.width = "100%", fig.align = "center", echo=FALSE}
+knitr::include_graphics("./files/mem_examples.png")
+```
+
+
+### Adaptive Clinical Trial Designs
+
+As a trialist I work to design and implement trials that efficiently take advantage of limited resources to answer research hypotheses. One area of this work is with respect to adaptive clinical trial designs, which are designed to include potential modifications to an ongoing study such as interim monitoring (e.g., stopping for futility, efficacy, or harm), sample size re-estimation, adaptive randomization, dropping or adding study arms, etc. An active area of research relates to precision medicine and the use of master protocols in infectious disease and oncology, especially with respect to *basket trials* that enroll multiple indications with a common genetic mutation targeted by a tumor agnostic therapy.
+
+The figures below demonstrate a simplified basket trial framework to use in generating simulation studies and a multi-source adaptive platform design that incorporated information sharing with MEMs and adaptive randomization for the West Africa Ebola disease outbreak:
+
+```{r, out.width = "100%", fig.align = "center", echo=FALSE}
+knitr::include_graphics("./files/adaptive_trials.png")
+```

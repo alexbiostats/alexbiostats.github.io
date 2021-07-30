@@ -261,7 +261,7 @@ $(document).ready(function () {
       <a href="teaching.html">Overview</a>
     </li>
     <li>
-      <a href="bios6611.html">BIOS 6611</a>
+      <a href="bios_6611.html">BIOS 6611</a>
     </li>
     <li>
       <a href="study_design_berd.html">Study Design Short Course</a>
@@ -323,7 +323,19 @@ $(document).ready(function () {
 </div>
 
 
-<p>Research information coming soon!</p>
+<p>My research focuses on the development of statistical methods to facilitate the sharing of information across multiple sources, the efficient design of adaptive clinical trials for translational research, and the intersection of these two. I briefly describe some of my existing and ongoing work in these areas below.</p>
+<div id="bayesian-information-sharing-with-multi-source-exchangeability-models" class="section level3">
+<h3>Bayesian Information Sharing with Multi-Source Exchangeability Models</h3>
+<p>Multi-source exchangeability models (MEMs) are a general Bayesian framework to facilitate the sharing of information across multiple, potentially heterogeneous, sources of data. It has been developed for both <em>asymmetric</em> settings where there is one primary source of data (e.g., a current trial) and historic or supplemental sources of data to consider borrowing from, as well as <em>symmetric</em> settings where there multiple concurrent primary sources of data (e.g., a basket trial).</p>
+<p>The figures below demonstrate the conceptual framework for the asymmetric setting, a posterior exchangeability probability matrix in the symmetric setting of a basket trial, and the corresponding network of baskets.</p>
+<p><img src="files/mem_examples.png" width="100%" style="display: block; margin: auto;" /></p>
+</div>
+<div id="adaptive-clinical-trial-designs" class="section level3">
+<h3>Adaptive Clinical Trial Designs</h3>
+<p>As a trialist I work to design and implement trials that efficiently take advantage of limited resources to answer research hypotheses. One area of this work is with respect to adaptive clinical trial designs, which are designed to include potential modifications to an ongoing study such as interim monitoring (e.g., stopping for futility, efficacy, or harm), sample size re-estimation, adaptive randomization, dropping or adding study arms, etc. An active area of research relates to precision medicine and the use of master protocols in infectious disease and oncology, especially with respect to <em>basket trials</em> that enroll multiple indications with a common genetic mutation targeted by a tumor agnostic therapy.</p>
+<p>The figures below demonstrate a simplified basket trial framework to use in generating simulation studies and a multi-source adaptive platform design that incorporated information sharing with MEMs and adaptive randomization for the West Africa Ebola disease outbreak:</p>
+<p><img src="files/adaptive_trials.png" width="100%" style="display: block; margin: auto;" /></p>
+</div>
 
 
 
