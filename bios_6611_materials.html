@@ -35,6 +35,8 @@
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<script src="site_libs/kePrint-0.0.1/kePrint.js"></script>
+<link href="site_libs/lightable-0.0.1/lightable.css" rel="stylesheet" />
 <link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
 <link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
 <link href="site_libs/academicons-1.9.1/css/academicons.css" rel="stylesheet" />
@@ -399,10 +401,186 @@ div.tocify {
 </div>
 
 
+<script>
+$(document).ready(function(){
+    $('[data-toggle="popover"]').popover(); 
+});
+</script>
 <p>This page includes the asynchronous lecture videos, PDF slides, and other materials for Biostatistical Methods I (BIOS 6611). The material is broadly broken down by theme with links provided to download materials or view the videos.</p>
 <p><em>Page in progress.</em></p>
 <div id="probability-and-distributions" class="section level2">
 <h2>Probability and Distributions</h2>
+<table class="table table-striped" style="margin-left: auto; margin-right: auto;">
+<thead>
+<tr>
+<th style="text-align:left;">
+Lecture Topic
+</th>
+<th style="text-align:center;">
+Slides
+</th>
+<th style="text-align:center;">
+YouTube Link
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left;width: 18em; ">
+<span style="     " data-toggle="popover" data-container="body" data-trigger="hover" data-placement="top" title="General Overview" data-content="The starting point of BIOS 6611, where we discuss what is statistics/biostatistics, populations vs. samples, parameters vs. statistics, descriptive vs. inferential stats, and point vs. interval estimation.">Intro to Statistical Topics</span>
+</td>
+<td style="text-align:center;width: 5em; ">
+<a href="./files/bios6611/W1/StatisticalConcepts.pdf">PDF</a>
+</td>
+<td style="text-align:center;width: 5em; ">
+<a href="https://youtu.be/5tRJs1jAaRE">YouTube</a>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;width: 18em; ">
+<span style="     " data-toggle="popover" data-container="body" data-trigger="hover" data-placement="top" title="General Overview" data-content="An introduction to notation used for statistical estimation. Then bias, efficiency, mean square error, and asymptotic consistency are discussed as properties of estimators. An example using a simulation study in R is presented for the sample mean.">Properties of Estimators</span>
+</td>
+<td style="text-align:center;width: 5em; ">
+<a href="./files/bios6611/W1/PropertiesOfEstimators.pdf">PDF</a>
+</td>
+<td style="text-align:center;width: 5em; ">
+<a href="https://youtu.be/AERMb-fkMWY">YouTube</a>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;width: 18em; ">
+<span style="     " data-toggle="popover" data-container="body" data-trigger="hover" data-placement="top" title="General Overview" data-content="Simulation studies in R and the difference between the population distribution and sampling distribution.">Simulations Studies</span>
+</td>
+<td style="text-align:center;width: 5em; ">
+<a href="./files/bios6611/W1/Simulations.pdf">PDF</a>
+</td>
+<td style="text-align:center;width: 5em; ">
+<a href="https://youtu.be/u9Zq6ZdMthw">YouTube</a>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;width: 18em; ">
+<span style="     " data-toggle="popover" data-container="body" data-trigger="hover" data-placement="top" title="General Overview" data-content="Providing the point estimate, an interval estimate, our uncertainty (i.e., p-value), and our ultimate decision are the four elements to try and include in every brief, but complete, summary.">Brief, but Complete, Interpretations</span>
+</td>
+<td style="text-align:center;width: 5em; ">
+<a href="./files/bios6611/W1/BriefButCompleteInterpretations.pdf">PDF</a>
+</td>
+<td style="text-align:center;width: 5em; ">
+<a href="https://youtu.be/pv-mCRuxVp8">YouTube</a>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;width: 18em; ">
+<span style="     " data-toggle="popover" data-container="body" data-trigger="hover" data-placement="top" title="General Overview" data-content="An introduction to discrete random variables and their probability mass function (PMF), cumulative density function (CDF), expected value, variance, and standard deviation.">Discrete Distributions</span>
+</td>
+<td style="text-align:center;width: 5em; ">
+<a href="./files/bios6611/W2/DiscreteData_PMF_EX_Var.pdf">PDF</a>
+</td>
+<td style="text-align:center;width: 5em; ">
+<a href="https://youtu.be/Uuy_r3itw5k">YouTube</a>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;width: 18em; ">
+<span style="     " data-toggle="popover" data-container="body" data-trigger="hover" data-placement="top" title="General Overview" data-content="The Bernoulli, Binomial, and Poisson distributions.">Common Discrete Distributions</span>
+</td>
+<td style="text-align:center;width: 5em; ">
+<a href="./files/bios6611/W2/DiscreteDistributions.pdf">PDF</a>
+</td>
+<td style="text-align:center;width: 5em; ">
+<a href="https://youtu.be/84Nkyd8A0Qw">YouTube</a>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;width: 18em; ">
+<span style="     " data-toggle="popover" data-container="body" data-trigger="hover" data-placement="top" title="General Overview" data-content="Joint, marginal, and conditional distributions/probabilities for bivariate distributions, with an introduction to Bayes&#39; theorem.">Probability and Bayes Theorem</span>
+</td>
+<td style="text-align:center;width: 5em; ">
+<a href="./files/bios6611/W2/Probability_Joint_Marginal_Conditional.pdf">PDF</a>
+</td>
+<td style="text-align:center;width: 5em; ">
+<a href="https://youtu.be/rcGAXNdy9VQ">YouTube</a>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;width: 18em; ">
+<span style="     " data-toggle="popover" data-container="body" data-trigger="hover" data-placement="top" title="General Overview" data-content="An introduction to Methods of Moments, Maximum Likelihood Estimation, and Least Squares Estimates.">Methods of Estimation (MoM, MLE, LSE)</span>
+</td>
+<td style="text-align:center;width: 5em; ">
+<a href="./files/bios6611/W2/EstimatorMethods.pdf">PDF</a>
+</td>
+<td style="text-align:center;width: 5em; ">
+<a href="https://youtu.be/idKDhP8Wo-w">YouTube</a>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;width: 18em; ">
+<span style="     " data-toggle="popover" data-container="body" data-trigger="hover" data-placement="top" title="General Overview" data-content="Continuous random variables and their probability density function (PDF), cumulative density function (CDF), expected value, variance, and standard deviation.">Continuous Distributions</span>
+</td>
+<td style="text-align:center;width: 5em; ">
+<a href="./files/bios6611/W3/ContinuousData_PDF_EX_Var.pdf">PDF</a>
+</td>
+<td style="text-align:center;width: 5em; ">
+<a href="https://youtu.be/NBGvCw7yWUo">YouTube</a>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;width: 18em; ">
+<span style="     " data-toggle="popover" data-container="body" data-trigger="hover" data-placement="top" title="General Overview" data-content="The normal (Gaussian) distribution in all its glory!">The Normal Distribution</span>
+</td>
+<td style="text-align:center;width: 5em; ">
+<a href="./files/bios6611/W3/The_Normal_Distribution.pdf">PDF</a>
+</td>
+<td style="text-align:center;width: 5em; ">
+<a href="https://youtu.be/fTe8NOjoY1E">YouTube</a>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;width: 18em; ">
+<span style="     " data-toggle="popover" data-container="body" data-trigger="hover" data-placement="top" title="General Overview" data-content="Graphical and formal hypothesis tests to evaluate normality in a sample.">Assessing Normality in Samples</span>
+</td>
+<td style="text-align:center;width: 5em; ">
+<a href="./files/bios6611/W3/Assessing_Normality_in_Samples.pdf">PDF</a>
+</td>
+<td style="text-align:center;width: 5em; ">
+<a href="https://youtu.be/hW0cHyh7Xpo">YouTube</a>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;width: 18em; ">
+<span style="     " data-toggle="popover" data-container="body" data-trigger="hover" data-placement="top" title="General Overview" data-content="The central limit theorem (CLT) is one of the most consequential theorems in statistics. In this lecture we introduce the CLT and illustrate its power through a simulation study.">The Central Limit Theorem</span>
+</td>
+<td style="text-align:center;width: 5em; ">
+<a href="./files/bios6611/W3/CentralLimitThm.pdf">PDF</a>
+</td>
+<td style="text-align:center;width: 5em; ">
+<a href="https://youtu.be/ppEgbv_ddXA">YouTube</a>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;width: 18em; ">
+<span style="     " data-toggle="popover" data-container="body" data-trigger="hover" data-placement="top" title="General Overview" data-content="The chi-squared, F, and t distributions.">Other Continuous Distributions</span>
+</td>
+<td style="text-align:center;width: 5em; ">
+<a href="./files/bios6611/W3/OtherContDistr_t_F_chisq.pdf">PDF</a>
+</td>
+<td style="text-align:center;width: 5em; ">
+<a href="https://youtu.be/lWeB25hRFuU">YouTube</a>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;width: 18em; ">
+<span style="     " data-toggle="popover" data-container="body" data-trigger="hover" data-placement="top" title="General Overview" data-content="Deriving the sampling distributions of the sample mean and variance and their corresponding properties.">Deriving the Sampling Distribution of the Sample Mean and Sample Variance</span>
+</td>
+<td style="text-align:center;width: 5em; ">
+<a href="./files/bios6611/W3/Samping_Dist_Xbar.pdf">PDF</a>
+</td>
+<td style="text-align:center;width: 5em; ">
+<a href="https://youtu.be/Z2-6UenBYRI">YouTube</a>
+</td>
+</tr>
+</tbody>
+</table>
 </div>
 <div id="hypothesis-testing-power-sample-size" class="section level2">
 <h2>Hypothesis Testing, Power, Sample Size</h2>
