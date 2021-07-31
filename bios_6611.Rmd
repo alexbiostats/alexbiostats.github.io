@@ -4,4 +4,21 @@ output:
   html_document
 ---
 
-Text soon!
+### Description
+
+Biostatistical Methods I (BIOS 6611) is the first of a two-semester applied statistics sequence designed to equip students with a practical knowledge of the quantitative methods most frequently used in medical research. This course is an introduction to applied biostatistics, including probability models, simulation, sampling distributions, hypothesis testing, resampling methods, linear regression and the use of the R and SAS statistical packages. Concepts will be illustrated using examples in the fields of medicine, biology, epidemiology and public health. Written and graphical presentation and interpretation of methods and results will be emphasized.
+
+
+### Prerequisites
+
+Differential and integral calculus is a prerequisite for the course, along with an introductory course in applied probability and statistics. Previous experience with a statistical package (e.g. R, SAS, Stata, SPSS) is also assumed. Matrix/linear algebra will also be introduced and past coursework or experience is beneficial. 
+
+
+### Lecture Videos, Slides, and Other Materials
+
+All BIOS 6611 lecture videos have been broken down into modular sections and posted to [YouTube](https://www.youtube.com/channel/UCB9212rDruEh_xEXQxoExGQ). To view the list of videos, download slides, and access other materials, please visit the [BIOS 6611 Materials](bios_6611_materials.html) page.
+
+
+### Journal of BIOS 6611
+
+The *Journal of BIOS 6611* is the official publication for Biostatistical Methods I. It has two annual issues relating to simulation studies and applied data analysis. To learn more about the journal's requirements for submission, please visit the the [Guide for Authors](journal_of_bios_6611.html) page.

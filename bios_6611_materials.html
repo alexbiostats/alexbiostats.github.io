@@ -11,7 +11,7 @@
 
 
 
-<title>BIOS 6611</title>
+<title>BIOS 6611 Materials</title>
 
 <script src="site_libs/header-attrs-2.8/header-attrs.js"></script>
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
@@ -29,6 +29,9 @@
        h6 {font-size: 12px;}
        code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
        pre:not([class]) { background-color: white }</style>
+<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
@@ -224,6 +227,69 @@ $(document).ready(function () {
 
 
 
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+@media print {
+.toc-content {
+  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
+  float: right;
+}
+}
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+
+</style>
+
+
 
 </head>
 
@@ -231,6 +297,16 @@ $(document).ready(function () {
 
 
 <div class="container-fluid main-container">
+
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
 
 
 
@@ -318,30 +394,36 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore">BIOS 6611</h1>
+<h1 class="title toc-ignore">BIOS 6611 Materials</h1>
 
 </div>
 
 
-<div id="description" class="section level3">
-<h3>Description</h3>
-<p>Biostatistical Methods I (BIOS 6611) is the first of a two-semester applied statistics sequence designed to equip students with a practical knowledge of the quantitative methods most frequently used in medical research. This course is an introduction to applied biostatistics, including probability models, simulation, sampling distributions, hypothesis testing, resampling methods, linear regression and the use of the R and SAS statistical packages. Concepts will be illustrated using examples in the fields of medicine, biology, epidemiology and public health. Written and graphical presentation and interpretation of methods and results will be emphasized.</p>
+<p>This page includes the asynchronous lecture videos, PDF slides, and other materials for Biostatistical Methods I (BIOS 6611). The material is broadly broken down by theme with links provided to download materials or view the videos.</p>
+<p><em>Page in progress.</em></p>
+<div id="probability-and-distributions" class="section level2">
+<h2>Probability and Distributions</h2>
 </div>
-<div id="prerequisites" class="section level3">
-<h3>Prerequisites</h3>
-<p>Differential and integral calculus is a prerequisite for the course, along with an introductory course in applied probability and statistics. Previous experience with a statistical package (e.g. R, SAS, Stata, SPSS) is also assumed. Matrix/linear algebra will also be introduced and past coursework or experience is beneficial.</p>
+<div id="hypothesis-testing-power-sample-size" class="section level2">
+<h2>Hypothesis Testing, Power, Sample Size</h2>
 </div>
-<div id="lecture-videos-slides-and-other-materials" class="section level3">
-<h3>Lecture Videos, Slides, and Other Materials</h3>
-<p>All BIOS 6611 lecture videos have been broken down into modular sections and posted to <a href="https://www.youtube.com/channel/UCB9212rDruEh_xEXQxoExGQ">YouTube</a>. To view the list of videos, download slides, and access other materials, please visit the <a href="bios_6611_materials.html">BIOS 6611 Materials</a> page.</p>
+<div id="conditional-probability-effect-measures-inference-for-2x2-tables" class="section level2">
+<h2>Conditional Probability, Effect Measures, Inference for 2x2 Tables</h2>
 </div>
-<div id="journal-of-bios-6611" class="section level3">
-<h3>Journal of BIOS 6611</h3>
-<p>The <em>Journal of BIOS 6611</em> is the official publication for Biostatistical Methods I. It has two annual issues relating to simulation studies and applied data analysis. To learn more about the journal’s requirements for submission, please visit the the <a href="journal_of_bios_6611.html">Guide for Authors</a> page.</p>
+<div id="bootstrap-sampling-and-nonparametric-methods" class="section level2">
+<h2>Bootstrap Sampling and Nonparametric Methods</h2>
+</div>
+<div id="simple-linear-regression" class="section level2">
+<h2>Simple Linear Regression</h2>
+</div>
+<div id="multiple-linear-regression" class="section level2">
+<h2>Multiple Linear Regression</h2>
 </div>
 
 
 
+</div>
+</div>
 
 </div>
 
@@ -374,6 +456,32 @@ $(document).ready(function () {
 
 <!-- code folding -->
 
+<script>
+$(document).ready(function ()  {
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>

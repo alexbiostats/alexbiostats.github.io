@@ -1,0 +1,39 @@
+---
+title: "Journal of BIOS 6611"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+---
+
+*Page in progress.*
+
+# Introduction
+
+## Types of Articles
+
+## Page Limits
+
+
+# Preparation
+
+## Article Structure
+
+## Appendices
+
+## Abstract
+
+## Keywords
+
+## Tables and Figures
+
+## References
+
+## Supplementary Material
+
+
+
+# Article submission
+
+
+

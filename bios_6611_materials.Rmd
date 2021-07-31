@@ -1,0 +1,28 @@
+---
+title: "BIOS 6611 Materials"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+---
+
+This page includes the asynchronous lecture videos, PDF slides, and other materials for Biostatistical Methods I (BIOS 6611). The material is broadly broken down by theme with links provided to download materials or view the videos.
+
+*Page in progress.*
+
+## Probability and Distributions
+
+
+## Hypothesis Testing, Power, Sample Size
+
+
+## Conditional Probability, Effect Measures, Inference for 2x2 Tables
+
+
+## Bootstrap Sampling and Nonparametric Methods
+
+
+## Simple Linear Regression
+
+
+## Multiple Linear Regression
