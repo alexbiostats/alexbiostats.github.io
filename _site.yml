@@ -5,16 +5,16 @@ navbar:
   left:
     - text: "Research"
       href: research.html
+    - text: "Publications"
+      href: publications.html
     - text: "Teaching"
       menu:
         - text: "Overview"
           href: teaching.html
         - text: "BIOS 6611"
-          href: bios_6611.html
+          href: https://www.alexkaizer.com/bios_6611
         - text: "Study Design Short Course"
           href: study_design_berd.html
-    - text: "Publications"
-      href: publications.html
   right:
     - icon: fa-envelope fa-lg
       href: mailto:alex.kaizer@cuanschutz.edu
