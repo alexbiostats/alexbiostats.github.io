@@ -13,8 +13,8 @@
 
 <title>Research</title>
 
-<script src="site_libs/header-attrs-2.9/header-attrs.js"></script>
-<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<script src="site_libs/header-attrs-2.14/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/flatly.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
@@ -34,9 +34,15 @@
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
 <link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
 <link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
-<link href="site_libs/academicons-1.9.1/css/academicons.css" rel="stylesheet" />
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5PBG7BL207"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-<link rel="icon" type="image/png" href="./files/favicon.ico"/>
+  gtag('config', 'G-5PBG7BL207');
+</script>
 
 <style type="text/css">
   code{white-space: pre-wrap;}
@@ -57,6 +63,7 @@ if (window.hljs) {
   }
 }
 </script>
+
 
 
 
@@ -86,6 +93,9 @@ button.code-folding-btn:focus {
 }
 summary {
   display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
 }
 pre code {
   padding: 0;
@@ -238,7 +248,7 @@ $(document).ready(function () {
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -254,7 +264,7 @@ $(document).ready(function () {
   <a href="publications.html">Publications</a>
 </li>
 <li class="dropdown">
-  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
     Teaching
      
     <span class="caret"></span>
@@ -323,17 +333,47 @@ $(document).ready(function () {
 </div>
 
 
-<p>My research focuses on the development of statistical methods to facilitate the sharing of information across multiple sources, the efficient design of adaptive clinical trials for translational research, and the intersection of these two. I briefly describe some of my existing and ongoing work in these areas below.</p>
-<div id="bayesian-information-sharing-with-multi-source-exchangeability-models" class="section level3">
-<h3>Bayesian Information Sharing with Multi-Source Exchangeability Models</h3>
-<p>Multi-source exchangeability models (MEMs) are a general Bayesian framework to facilitate the sharing of information across multiple, potentially heterogeneous, sources of data. It has been developed for both <em>asymmetric</em> settings where there is one primary source of data (e.g., a current trial) and historic or supplemental sources of data to consider borrowing from, as well as <em>symmetric</em> settings where there multiple concurrent primary sources of data (e.g., a basket trial).</p>
-<p>The figures below demonstrate the conceptual framework for the asymmetric setting, a posterior exchangeability probability matrix in the symmetric setting of a basket trial, and the corresponding network of baskets.</p>
+<p>My research focuses on the development of statistical methods to
+facilitate the sharing of information across multiple sources, the
+efficient design of adaptive clinical trials for translational research,
+and the intersection of these two. I briefly describe some of my
+existing and ongoing work in these areas below.</p>
+<div
+id="bayesian-information-sharing-with-multi-source-exchangeability-models"
+class="section level3">
+<h3>Bayesian Information Sharing with Multi-Source Exchangeability
+Models</h3>
+<p>Multi-source exchangeability models (MEMs) are a general Bayesian
+framework to facilitate the sharing of information across multiple,
+potentially heterogeneous, sources of data. It has been developed for
+both <em>asymmetric</em> settings where there is one primary source of
+data (e.g., a current trial) and historic or supplemental sources of
+data to consider borrowing from, as well as <em>symmetric</em> settings
+where there multiple concurrent primary sources of data (e.g., a basket
+trial).</p>
+<p>The figures below demonstrate the conceptual framework for the
+asymmetric setting, a posterior exchangeability probability matrix in
+the symmetric setting of a basket trial, and the corresponding network
+of baskets.</p>
 <p><img src="files/mem_examples.png" width="100%" style="display: block; margin: auto;" /></p>
 </div>
 <div id="adaptive-clinical-trial-designs" class="section level3">
 <h3>Adaptive Clinical Trial Designs</h3>
-<p>As a trialist I work to design and implement trials that efficiently take advantage of limited resources to answer research hypotheses. One area of this work is with respect to adaptive clinical trial designs, which are designed to include potential modifications to an ongoing study such as interim monitoring (e.g., stopping for futility, efficacy, or harm), sample size re-estimation, adaptive randomization, dropping or adding study arms, etc. An active area of research relates to precision medicine and the use of master protocols in infectious disease and oncology, especially with respect to <em>basket trials</em> that enroll multiple indications with a common genetic mutation targeted by a tumor agnostic therapy.</p>
-<p>The figures below demonstrate a simplified basket trial framework to use in generating simulation studies and a multi-source adaptive platform design that incorporated information sharing with MEMs and adaptive randomization for the West Africa Ebola disease outbreak:</p>
+<p>As a trialist I work to design and implement trials that efficiently
+take advantage of limited resources to answer research hypotheses. One
+area of this work is with respect to adaptive clinical trial designs,
+which are designed to include potential modifications to an ongoing
+study such as interim monitoring (e.g., stopping for futility, efficacy,
+or harm), sample size re-estimation, adaptive randomization, dropping or
+adding study arms, etc. An active area of research relates to precision
+medicine and the use of master protocols in infectious disease and
+oncology, especially with respect to <em>basket trials</em> that enroll
+multiple indications with a common genetic mutation targeted by a tumor
+agnostic therapy.</p>
+<p>The figures below demonstrate a simplified basket trial framework to
+use in generating simulation studies and a multi-source adaptive
+platform design that incorporated information sharing with MEMs and
+adaptive randomization for the West Africa Ebola disease outbreak:</p>
 <p><img src="files/adaptive_trials.png" width="100%" style="display: block; margin: auto;" /></p>
 </div>
 

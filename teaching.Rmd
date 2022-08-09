@@ -1,16 +1,23 @@
 ---
 title: "Teaching"
 output: 
-  html_document
+  html_document:
+    includes:
+      in_header: 
+        - header-tracker.html
 ---
 
 ## Current Courses
 
+Fall 2022: [Biostatistical Methods I (BIOS 6611)](https://www.alexkaizer.com/bios_6611/)
+
+Fall 2022: [Fundamentals of Study Design (BERD Short Course)](study_design_berd.html)
+
+## Past Courses
+
 Fall 2021: [Biostatistical Methods I (BIOS 6611)](https://www.alexkaizer.com/bios_6611/)
 
 Fall 2021: [Fundamentals of Study Design (BERD Short Course)](study_design_berd.html)
-
-## Past Courses
 
 Fall 2020: [Biostatistical Methods I (BIOS 6611)](https://www.alexkaizer.com/bios_6611/)
 

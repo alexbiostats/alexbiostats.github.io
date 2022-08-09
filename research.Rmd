@@ -1,7 +1,10 @@
 ---
 title: "Research"
 output: 
-  html_document
+  html_document:
+    includes:
+      in_header: 
+        - header-tracker.html
 ---
 
 My research focuses on the development of statistical methods to facilitate the sharing of information across multiple sources, the efficient design of adaptive clinical trials for translational research, and the intersection of these two. I briefly describe some of my existing and ongoing work in these areas below.

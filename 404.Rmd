@@ -1,7 +1,10 @@
 ---
 title: "Page Not Found"
 output: 
-  html_document
+  html_document:
+    includes:
+      in_header: 
+        - header-tracker.html
 ---
 
 Baisy the Bayesian pupper thinks you may have specified a bad prior. Try specifying a new prior.

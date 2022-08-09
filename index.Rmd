@@ -1,7 +1,10 @@
 ---
 title: "Alex Kaizer"
 output: 
-  html_document
+  html_document:
+    includes:
+      in_header: 
+        - header-tracker.html
 ---
 
 ### *Assistant Professor of Biostatistics and Informatics*
