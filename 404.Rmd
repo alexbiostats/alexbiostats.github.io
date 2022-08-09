@@ -3,7 +3,8 @@ title: "Page Not Found"
 output: 
   html_document:
     includes:
-      in_header: 
+      in_header:
+        - header.html
         - header-tracker.html
 ---
 

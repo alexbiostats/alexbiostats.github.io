@@ -3,7 +3,8 @@ title: "Fundamentals of Study Design"
 output: 
   html_document:
     includes:
-      in_header: 
+      in_header:
+        - header.html 
         - header-tracker.html
 ---
 
