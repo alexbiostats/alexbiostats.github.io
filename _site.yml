@@ -15,8 +15,10 @@ navbar:
           href: https://www.alexkaizer.com/bios_6618
         - text: "BIOS 6611"
           href: https://www.alexkaizer.com/bios_6611
-        - text: "Study Design Short Course"
+        - text: "BERD Study Design Short Course"
           href: study_design_berd.html
+        - text: "WNAR Adaptive and Bayesian Clinical Trial Design Short Course"
+          href: https://www.alexkaizer.com/adaptivetrials_sc 
   right:
     - icon: fa-envelope fa-lg
       href: mailto:alex.kaizer@cuanschutz.edu
