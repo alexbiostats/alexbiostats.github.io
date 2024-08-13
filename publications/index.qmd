@@ -2,11 +2,13 @@
 title: "Publications"
 toc: FALSE
 format:
-  html
+  html:
+    include-in-header:
+      - text: |
+          <script src="https://bibbase.org/show?bib=https%3A%2F%2Falexbiostats.github.io%2Falex_publications.bib&commas=true&jsonp=1"></script> 
 ---
 
 Additional information may be found on my [Google Scholar](https://scholar.google.com/citations?user=ICpH74EAAAAJ&hl=en) page and [CV](/files/Alex_CV.pdf).
 
-```{=html}
 <script src="https://bibbase.org/show?bib=https%3A%2F%2Falexbiostats.github.io%2Falex_publications.bib&commas=true&jsonp=1"></script> 
-```
+
