@@ -2,13 +2,27 @@
 title: "Publications"
 toc: FALSE
 format:
-  html:
-    include-in-header:
-      - text: |
-          <script src="https://bibbase.org/show?bib=https%3A%2F%2Falexbiostats.github.io%2Falex_publications.bib&commas=true&jsonp=1"></script> 
+  html
 ---
 
 Additional information may be found on my [Google Scholar](https://scholar.google.com/citations?user=ICpH74EAAAAJ&hl=en) page and [CV](/files/Alex_CV.pdf).
 
-<script src="https://bibbase.org/show?bib=https%3A%2F%2Falexbiostats.github.io%2Falex_publications.bib&commas=true&jsonp=1"></script> 
+Attempt 1: 
 
+<script src="https://bibbase.org/show?bib=https://alexbiostats.github.io/alex_publications.bib&commas=true&jsonp=1"></script> 
+
+Attempt 2:
+
+<script src="https://bibbase.org/show?bib=https://alexbiostats.github.io/alex_publications.bib&jsonp=1"></script> 
+
+Attempt 3:
+
+<script src="https://bibbase.org/show?bib=https%3A%2F%2Fgithub.com%2Falexbiostats%2Falexbiostats.github.io%2Fblob%2Fmain%2Falex_publications.bib&commas=true&jsonp=1"></script>
+
+Attempt 4:
+
+<script src="https://bibbase.org/show?bib=https%3A%2F%2Fgithub.com%2Falexbiostats%2Falexbiostats.github.io%2Fblob%2Fmain%2Falex_publications.bib&jsonp=1"></script> 
+
+Attempt 5:
+
+<script src="https://bibbase.org/show?bib=https://alexbiostats.github.io/alex_publications.bib&jsonp=1"></script>
