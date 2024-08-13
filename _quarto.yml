@@ -1,0 +1,48 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Alex Kaizer"
+  site-url: "https://www.alexkaizer.com/"
+  search: true
+  navbar:
+    pinned: true
+    left:
+      - text: "Research"
+        href: https://www.alexkaizer.com/research
+      - text: "Publications"
+        href: https://www.alexkaizer.com/publications
+      - text: "Teaching"
+        menu:
+          - text: "Overview"
+            href: https://www.alexkaizer.com/teaching
+          - text: "BIOS 6618"
+            href: https://www.alexkaizer.com/bios_6618
+          - text: "BIOS 6611"
+            href: https://www.alexkaizer.com/bios_6611
+          - text: "BERD Study Design Short Course"
+            href: https://www.alexkaizer.com/study_design_berd
+          - text: "WNAR Adaptive and Bayesian Clinical Trial Design Short Course"
+            href: https://www.alexkaizer.com/adaptivetrials_sc 
+    right:
+      - icon: envelope
+        href: mailto:alex.kaizer@cuanschutz.edu
+      - text: "{{< ai google-scholar size=large >}}"  # TERMINAL PROMPT: quarto install extension schochastics/academicons
+        href: https://scholar.google.com/citations?user=ICpH74EAAAAJ&hl=en
+      - icon: github
+        href: http://github.com/alexbiostats
+      - text: "{{< ai cv size=large >}}" # TERMINAL PROMPT: quarto install extension schochastics/academicons
+        href: https://www.alexkaizer.com/files/Alex_CV.pdf
+      - icon: linkedin
+        href: https://www.linkedin.com/in/alex-kaizer/
+
+format:
+  html:
+    theme: flatly
+    css: styles.css
+    toc: true
+    
+include-in-header:
+  - header.html
+  - header-tracker.html

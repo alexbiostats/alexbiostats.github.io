@@ -1,0 +1,12 @@
+---
+title: "Page Not Found"
+toc: FALSE
+format:
+  html
+---
+
+Baisy the Bayesian pupper thinks you may have specified a bad prior. Try specifying a new prior.
+
+```{r, out.width = "50%", fig.align = "center", echo=FALSE}
+knitr::include_graphics("./files/baisy_404.jpg")
+```

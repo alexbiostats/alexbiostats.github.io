@@ -1,0 +1,45 @@
+---
+title: "Teaching"
+toc: FALSE
+format:
+  html
+---
+
+## Current Courses
+
+Fall 2024: [Advanced Biostatistical Methods I (BIOS 6618)](https://www.alexkaizer.com/bios_6618/)
+
+## Past Courses
+
+Summer 2024: [Adaptive and Bayesian Methods for Clinical Trial Design Short Course](https://www.alexkaizer.com/adaptivetrials_sc/)
+
+Fall 2023: [Advanced Biostatistical Methods I (BIOS 6618)](https://www.alexkaizer.com/bios_6618/)
+
+Fall 2023: [Fundamentals of Study Design (BERD Short Course)](study_design_berd.html)
+
+Fall 2022: [Biostatistical Methods I (BIOS 6611)](https://www.alexkaizer.com/bios_6611/)
+
+Fall 2022: [Fundamentals of Study Design (BERD Short Course)](study_design_berd.html)
+
+Fall 2021: [Biostatistical Methods I (BIOS 6611)](https://www.alexkaizer.com/bios_6611/)
+
+Fall 2021: [Fundamentals of Study Design (BERD Short Course)](study_design_berd.html)
+
+Fall 2020: [Biostatistical Methods I (BIOS 6611)](https://www.alexkaizer.com/bios_6611/)
+
+Fall 2020: [Fundamentals of Study Design (BERD Short Course)](study_design_berd.html)
+
+Spring 2020: Advanced Methods in the Design of Clinical Trials (BIOS 7749)
+
+Fall 2019: Biostatistical Methods I (BIOS 6611)
+
+Fall 2019: [Fundamentals of Study Design (BERD Short Course)](study_design_berd.html)
+
+Spring 2019: [Fundamentals of Study Design (BERD Short Course)](study_design_berd.html)
+
+Fall 2018: Biostatistical Methods I (BIOS 6611)
+
+Spring 2018: Bayesian Methods (BIOS 7717 Co-Instructor)
+
+
+

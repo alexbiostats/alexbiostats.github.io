@@ -1,0 +1,51 @@
+[
+  {
+    "objectID": "teaching/index.html",
+    "href": "teaching/index.html",
+    "title": "Teaching",
+    "section": "",
+    "text": "Fall 2024: Advanced Biostatistical Methods I (BIOS 6618)"
+  },
+  {
+    "objectID": "teaching/index.html#current-courses",
+    "href": "teaching/index.html#current-courses",
+    "title": "Teaching",
+    "section": "",
+    "text": "Fall 2024: Advanced Biostatistical Methods I (BIOS 6618)"
+  },
+  {
+    "objectID": "teaching/index.html#past-courses",
+    "href": "teaching/index.html#past-courses",
+    "title": "Teaching",
+    "section": "Past Courses",
+    "text": "Past Courses\nSummer 2024: Adaptive and Bayesian Methods for Clinical Trial Design Short Course\nFall 2023: Advanced Biostatistical Methods I (BIOS 6618)\nFall 2023: Fundamentals of Study Design (BERD Short Course)\nFall 2022: Biostatistical Methods I (BIOS 6611)\nFall 2022: Fundamentals of Study Design (BERD Short Course)\nFall 2021: Biostatistical Methods I (BIOS 6611)\nFall 2021: Fundamentals of Study Design (BERD Short Course)\nFall 2020: Biostatistical Methods I (BIOS 6611)\nFall 2020: Fundamentals of Study Design (BERD Short Course)\nSpring 2020: Advanced Methods in the Design of Clinical Trials (BIOS 7749)\nFall 2019: Biostatistical Methods I (BIOS 6611)\nFall 2019: Fundamentals of Study Design (BERD Short Course)\nSpring 2019: Fundamentals of Study Design (BERD Short Course)\nFall 2018: Biostatistical Methods I (BIOS 6611)\nSpring 2018: Bayesian Methods (BIOS 7717 Co-Instructor)"
+  },
+  {
+    "objectID": "research/index.html",
+    "href": "research/index.html",
+    "title": "Research",
+    "section": "",
+    "text": "My research focuses on the development of statistical methods to facilitate the sharing of information across multiple sources, the efficient design of adaptive clinical trials for translational research, and the intersection of these two. I briefly describe some of my existing and ongoing work in these areas below.\n\nBayesian Information Sharing with Multi-Source Exchangeability Models\nMulti-source exchangeability models (MEMs) are a general Bayesian framework to facilitate the sharing of information across multiple, potentially heterogeneous, sources of data. It has been developed for both asymmetric settings where there is one primary source of data (e.g., a current trial) and historic or supplemental sources of data to consider borrowing from, as well as symmetric settings where there multiple concurrent primary sources of data (e.g., a basket trial).\nThe figures below demonstrate the conceptual framework for the asymmetric setting, a posterior exchangeability probability matrix in the symmetric setting of a basket trial, and the corresponding network of baskets.\n\n\n\n\n\n\n\n\n\n\n\nAdaptive Clinical Trial Designs\nAs a trialist I work to design and implement trials that efficiently take advantage of limited resources to answer research hypotheses. One area of this work is with respect to adaptive clinical trial designs, which are designed to include potential modifications to an ongoing study such as interim monitoring (e.g., stopping for futility, efficacy, or harm), sample size re-estimation, adaptive randomization, dropping or adding study arms, etc. An active area of research relates to precision medicine and the use of master protocols in infectious disease and oncology, especially with respect to basket trials that enroll multiple indications with a common genetic mutation targeted by a tumor agnostic therapy.\nThe figures below demonstrate a simplified basket trial framework to use in generating simulation studies and a multi-source adaptive platform design that incorporated information sharing with MEMs and adaptive randomization for the West Africa Ebola disease outbreak:"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Alex Kaizer",
+    "section": "",
+    "text": "Associate Professor of Biostatistics and Informatics\n\nI am a tenured Associate Professor in the Department of Biostatistics & Informatics (B&I) and the Center for Innovative Design and Analysis (CIDA) at the University of Colorado Anschutz Medical Campus.\nMy research interests are in the development of Bayesian statistical methods for information sharing and in the design of adaptive clinical trials. I am also interested in the intersection of these two areas to develop novel adaptive clinical trial designs that more efficiently and effectively utilize available resources, past trials, and past studies. I am currently an NHLBI K01 scholar working to extend these methods and designs to the world of cardiovascular outcomes research. Within CIDA I collaborate with clinicians and scientists across campus in translational research, especially in applications relating to gastroenterology, cardiology, anesthesiology, and pediatric obesity.\nI earned my BS in Demographic Analysis (Interdisciplinary Studies) from Truman State University in 2012 and my PhD in Biostatistics from the University of Minnesota in 2017. My dissertation was advised by Joe Koopmeiners and focused on the development of multi-source exchangeability models (MEMs) as a general Bayesian approach to incorporating supplemental or historic data sources into a primary analysis.\nFeel free to reach out with any questions relating to my research or teaching, the graduate program in Biostatistics at the University of Colorado, or anything else:\n\n\nContact Information\nAlex Kaizer\nDepartment of Biostatistics & Informatics\nColorado School of Public Health\nFitzsimons Building, Room W4163\n13001 East 17th Place\nAurora, Colorado 80045\nEmail: alex.kaizer@cuanschutz.edu"
+  },
+  {
+    "objectID": "publications/index.html",
+    "href": "publications/index.html",
+    "title": "Publications",
+    "section": "",
+    "text": "Additional information may be found on my Google Scholar page and CV."
+  },
+  {
+    "objectID": "study_design_berd/index.html",
+    "href": "study_design_berd/index.html",
+    "title": "Fundamentals of Study Design",
+    "section": "",
+    "text": "Note, this page applies to the course offered from Spring 2019-Fall 2023, as of Fall 2024 a new instructor will be teaching the course.\nFundamentals of Study Design is a six-week short course I originally developed in Spring 2019 as part of the Biostatistics, Epidemiology, and Research Design (BERD) core at the University of Colorado Anschutz Medical Campus. It is a course for those wanting to become acquainted with basic clinical trial methodology, either to broaden their knowledge of public health and clinical research, or to obtain a basis for more advanced study of the design and conduct of clinical trials. Throughout the six weeks we will introduce clinical trial design in the context of epidemiological concepts, cover various topics in the design and conduct of clinical trials, and profile clinical trials that illustrate these issues.\nThe schedule of topics by week include:\n\nStudy Design History and Comparisons\nIdentifying the Research Hypotheses and Study Population, Collecting Data\nExploration of Clinical Trial Designs I\nExploration of Clinical Trial Designs II and Analyzing the Data\nSample Size, Power, and Sequential Monitoring\nNovel Study Designs and Reporting Results\n\nThis course is typically offered early in the fall semester on the University of Colorado Anschutz Medical Campus. For more information and how to sign up you can visit the Center for Innovative Design and Analysis’ short course page."
+  }
+]
