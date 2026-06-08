@@ -1,7 +1,8 @@
 project:
   type: website
   output-dir: docs
-
+  resources:
+    - files/alex_publications.bib
 website:
   title: "Alex Kaizer"
   site-url: "https://www.alexkaizer.com/"
